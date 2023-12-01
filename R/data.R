@@ -2,7 +2,7 @@
 #'
 #' An updated SDTM AE dataset that uses the CDISC pilot project
 #'
-#' @source \url{https://github.com/pharmaverse/admiral.test/blob/main/data/admiral_ae.rda}
+#' @source \url{https://github.com/pharmaverse/pharmaversesdtm/blob/main/data/ae.rda}
 "ae"
 
 #' Ophthalmology Adverse Events Dataset
@@ -30,7 +30,7 @@
 #'
 #' An updated SDTM DS dataset that uses the CDISC pilot project
 #'
-#' @source \url{https://github.com/pharmaverse/admiral.test/blob/main/data/admiral_ds.rda}
+#' @source \url{https://github.com/pharmaverse/pharmaversesdtm/blob/main/data/ds.rda}
 #' @author Gopi Vegesna
 "ds"
 
@@ -58,7 +58,7 @@
 #'
 #' An updated SDTM LB dataset that uses data from the CDISC pilot project
 #'
-#' @source \url{https://github.com/pharmaverse/admiral.test/blob/main/data/admiral_lb.rda}
+#' @source \url{https://github.com/pharmaverse/pharmaversesdtm/blob/main/data/lb.rda}
 #' @author Annie Yang
 "lb"
 
@@ -81,7 +81,7 @@
 #'
 #' A SDTM PC dataset simulated by Antonio Rodríguez Contestí
 #'
-#' @source \url{https://github.com/pharmaverse/admiral.test/blob/main/data/admiral_pc.rda}
+#' @source \url{https://github.com/pharmaverse/pharmaversesdtm/blob/main/data/pc.rda}
 #' @author Antonio Rodríguez Contestí
 "pc"
 
@@ -89,7 +89,7 @@
 #'
 #' A SDTM PP dataset simulated by Antonio Rodríguez Contestí
 #'
-#' @source \url{https://github.com/pharmaverse/admiral.test/blob/main/data/admiral_pp.rda}
+#' @source \url{https://github.com/pharmaverse/pharmaversesdtm/blob/main/data/pp.rda}
 #' @author Antonio Rodríguez Contestí
 "pp"
 
@@ -154,6 +154,14 @@
 #' @author Stefan Bundfuss
 "rs_onco_recist"
 
+#' Disease Response Dataset (iRECIST)
+#'
+#' A SDTM RS dataset using iRECIST. The dataset contains just a few patients.
+#' It is intended for vignettes and examples of ADaM dataset creation.
+#'
+#' @author Rohan Thampi
+"rs_onco_irecist"
+
 #' Supplemental Adverse Events Dataset
 #'
 #' A SDTM SUPPAE dataset from the CDISC pilot project
@@ -214,3 +222,80 @@
 #'
 #' @source \url{https://github.com/cdisc-org/sdtm-adam-pilot-project/blob/master/updated-pilot-submission-package/900172/m5/datasets/cdiscpilot01/tabulations/sdtm/sv.xpt?raw=true} # nolint
 "sv"
+
+#' Demographics Dataset for Vaccine Studies
+#'
+#' An example SDTM DM dataset for vaccine studies
+#'
+#' @source \url{https://github.com/pharmaverse/admiralvaccine/blob/main/data/vx_dm.rda} # nolint
+"dm_vaccine"
+
+#' Vital Signs Dataset for Vaccine Studies
+#'
+#' An example SDTM VS dataset for vaccine studies
+#'
+#' @source \url{https://github.com/pharmaverse/admiralvaccine/blob/main/data/vx_vs.rda} # nolint
+"vs_vaccine"
+
+#' Clinical Events Dataset for Vaccine Studies
+#'
+#' An example SDTM CE dataset for vaccine studies
+#'
+#' @source \url{https://github.com/pharmaverse/admiralvaccine/blob/main/data/vx_ce.rda} # nolint
+"ce_vaccine"
+
+#' Exposures Dataset for Vaccine Studies
+#'
+#' An example SDTM EX dataset for vaccine studies
+#'
+#' @source \url{https://github.com/pharmaverse/admiralvaccine/blob/main/data/vx_ex.rda} # nolint
+"ex_vaccine"
+
+#' Immunogenicity Specimen Assessments Dataset for Vaccine Studies
+#'
+#' An example SDTM IS dataset for vaccine studies
+#'
+#' @source \url{https://github.com/pharmaverse/admiralvaccine/blob/main/data/vx_is.rda} # nolint
+"is_vaccine"
+
+#' Findings About Clinical Events Dataset for Vaccine Studies
+#'
+#' An example SDTM FACE dataset for vaccine studies
+#'
+#' @source \url{https://github.com/pharmaverse/admiralvaccine/blob/main/data/vx_face.rda} # nolint
+"face_vaccine"
+
+#' Supplemental Qualifiers for Clinical Events Dataset for Vaccine Studies
+#'
+#' An example SDTM SUPPCE dataset for vaccine studies
+#'
+#' @source \url{https://github.com/pharmaverse/admiralvaccine/blob/main/data/vx_suppce.rda} # nolint
+"suppce_vaccine"
+
+#' Supplemental Qualifiers for Demographics Dataset for Vaccine Studies
+#'
+#' An example SDTM SUPPDM dataset for vaccine studies
+#'
+#' @source \url{https://github.com/pharmaverse/admiralvaccine/blob/main/data/vx_suppdm.rda} # nolint
+"suppdm_vaccine"
+
+#' Supplemental Qualifiers for Exposures Dataset for Vaccine Studies
+#'
+#' An example SDTM SUPPEX dataset for vaccine studies
+#'
+#' @source \url{https://github.com/pharmaverse/admiralvaccine/blob/main/data/vx_suppex.rda} # nolint
+"suppex_vaccine"
+
+#' Supplemental Qualifiers for Findings About for Clinical Events Dataset for Vaccine Studies # nolint
+#'
+#' An example SDTM SUPPFACE dataset for vaccine studies
+#'
+#' @source \url{https://github.com/pharmaverse/admiralvaccine/blob/main/data/vx_suppface.rda} # nolint
+"suppface_vaccine"
+
+#' Supplemental Qualifiers for Immunogenicity Specimen Assessments Dataset for Vaccine Studies # nolint
+#'
+#' An example SDTM SUPPIS dataset for vaccine studies
+#'
+#' @source \url{https://github.com/pharmaverse/admiralvaccine/blob/main/data/vx_suppis.rda} # nolint
+"suppis_vaccine"
