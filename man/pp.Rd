@@ -3,9 +3,9 @@
 \docType{data}
 \name{pp}
 \alias{pp}
-\title{Pharmacokinetic Parameters Dataset}
+\title{Pharmacokinetic Parameters}
 \format{
-An object of class \code{data.frame} with 2352 rows and 14 columns.
+An object of class \code{data.frame} with 2688 rows and 14 columns.
 }
 \source{
 \url{https://github.com/pharmaverse/pharmaversesdtm/blob/main/data/pp.rda}
@@ -14,9 +14,9 @@ An object of class \code{data.frame} with 2352 rows and 14 columns.
 pp
 }
 \description{
-A SDTM PP dataset simulated by Antonio Rodríguez Contestí
+A SDTM PP dataset simulated by Antonio Rodriguez Contesti
 }
 \author{
-Antonio Rodríguez Contestí
+Antonio Rodriguez Contesti
 }
 \keyword{datasets}

@@ -1,3 +1,16 @@
+# pharmaversesdtm 1.0.0
+
+## New Features
+
+- Add URINE records to `pc` and `pp`. (#90)
+
+- Update `PPCAT` so that it corresponds to `PCTEST`. (#91)
+
+- Oncology response data for IMWG criteria (`rs_onco_imwg` and `supprs_onco_imwg`)
+was added. (#86)
+
+- Update `PPSTRESC` and `PPORRES` so they are character. (#102)
+
 # pharmaversesdtm 0.2.0
 
 ## New Features

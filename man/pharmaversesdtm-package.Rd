@@ -4,7 +4,7 @@
 \name{pharmaversesdtm-package}
 \alias{pharmaversesdtm}
 \alias{pharmaversesdtm-package}
-\title{pharmaversesdtm: Test Data for the Pharmaverse Family of Packages}
+\title{pharmaversesdtm: SDTM Test Data for the 'Pharmaverse' Family of Packages}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
@@ -13,8 +13,8 @@ A set of Study Data Tabulation Model (SDTM) datasets from the Clinical Data Inte
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://pharmaverse.github.io/pharmaversesdtm/main/}
-  \item \url{https://github.com/pharmaverse/pharmaversesdtm}
+  \item \url{https://pharmaverse.github.io/pharmaversesdtm/}
+  \item \url{https://github.com/pharmaverse/pharmaversesdtm/}
 }
 
 }
@@ -28,6 +28,7 @@ Authors:
   \item Pooja Kumari
   \item Stefan Bundfuss
   \item Zelos Zhu
+  \item Sadchla Mascary
 }
 
 }
