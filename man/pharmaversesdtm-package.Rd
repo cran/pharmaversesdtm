@@ -8,7 +8,7 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-A set of Study Data Tabulation Model (SDTM) datasets from the Clinical Data Interchange Standards Consortium (CDISC) pilot project used for testing and developing Analysis Data Model (ADaM) datasets inside the pharmaverse family of packages. SDTM dataset specifications are described in: CDISC Submission Data Standards Team (2021) \url{https://www.cdisc.org/system/files/members/standard/foundational/SDTMIG\%20v3.4-FINAL_2022-07-21.pdf}.
+A set of Study Data Tabulation Model (SDTM) datasets from the Clinical Data Interchange Standards Consortium (CDISC) pilot project used for testing and developing Analysis Data Model (ADaM) datasets inside the pharmaverse family of packages. SDTM dataset specifications are described in the CDISC SDTM implementation guide, accessible by creating a free account on \url{https://www.cdisc.org/}.
 }
 \seealso{
 Useful links:
@@ -19,16 +19,17 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Edoardo Mancini \email{edoardo.mancini@roche.com}
+\strong{Maintainer}: Edoardo Mancini \email{edoardo.mancini@roche.com} (\href{https://orcid.org/0009-0006-4899-8641}{ORCID})
 
 Authors:
 \itemize{
   \item Gayatri G
   \item Kangjie Zhang
   \item Pooja Kumari
-  \item Stefan Bundfuss
+  \item Stefan Bundfuss (\href{https://orcid.org/0009-0005-0027-1198}{ORCID})
   \item Zelos Zhu
   \item Sadchla Mascary
+  \item Vladyslav Shuliar (\href{https://orcid.org/0009-0008-2354-8999}{ORCID})
 }
 
 }

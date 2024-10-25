@@ -1,3 +1,20 @@
+# pharmaversesdtm 1.1.0
+
+## New features
+
+- Pediatrics data for anthropometric measures (`dm_peds` and `vs_peds`) was added. (#88)
+
+- `CMENRTPT` variable was added to the `cm` dataset. (#120)
+
+- `AELOC` variable was added to the `ae_ophtha` dataset. (#110)
+
+<details>
+<summary>Developer Notes</summary>
+
+- Activated automatic version bumping CICD workflow. (#122)
+
+</details>
+
 # pharmaversesdtm 1.0.0
 
 ## New Features
