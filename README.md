@@ -1,8 +1,9 @@
-# pharmaversesdtm <img src="man/figures/logo.png" align="right" width="200" style="margin-left:50px;"/>
+# pharmaversesdtm <img src="man/figures/logo.png" align="right" width="200" style="margin-left:50px;" alt="pharmaverse sdtm hex"/>
 
 <!-- badges: start -->
 
-[![pharmaverse admiral Badge]("http://pharmaverse.org/shields/pharmaversesdtm.svg")(https://pharmaverse.org) [![CRAN status](https://www.r-pkg.org/badges/version/pharmaversesdtm)](https://CRAN.R-project.org/package=pharmaversesdtm)
+[![pharmaverse sdtm Badge](http://pharmaverse.org/shields/pharmaversesdtm.svg)](https://pharmaverse.org)
+[![CRAN status](https://www.r-pkg.org/badges/version/pharmaversesdtm)](https://CRAN.R-project.org/package=pharmaversesdtm)
 
 <!-- badges: end -->
 
@@ -13,7 +14,6 @@ Test data (SDTM) for the pharmaverse family of packages
 -   [Data Sources](#data-sources)
 -   [Naming Conventions](#naming)
 -   [How To Update](#how-to-update)
--   [Documentation Process](#documentation-process)
 
 # Purpose {#purpose}
 
@@ -48,14 +48,13 @@ Firstly, make a GitHub issue in [`{pharmaversesdtm}`](https://github.com/pharmav
 
 -   Programs that generate test data are stored in the `data-raw/` folder.
 -   Each of these programs is written as a standalone R script: if any packages need to be loaded for a given program, then call `library()` at the start of the program (but please do **not** call `library(pharmaversesdtm)`).
--   Most of the packages that you are likely to need will already be specified in the `renv.lock` file, so they will already be installed if you have been keeping in sync--you can check this by entering `renv::status()` in the Console. However, you may also wish to install `{metatools}`, which is currently not specified in the `renv.lock` file. If you feel that you need to install any other packages in addition to those just mentioned, then please tag `@pharmaverse/admiral` to discuss with the development core team.
 -   When you have created a program in the `data-raw/` folder, you need to run it as a standalone R script, in order to generate a test dataset that will become part of the `{pharmaversesdtm}` package, but you do not need to build the package.
 -   Following [best practice](https://r-pkgs.org/data.html#sec-data-data), each dataset is stored as a `.rda` file whose name is consistent with the name of the dataset, e.g., dataset `xx` is stored as `xx.rda`. The easiest way to achieve this is to use `usethis::use_data(xx)`
 -   The programs in `data-raw/` are stored within the `{pharmaversesdtm}` GitHub repository, but they are **not** part of the `{pharmaversesdtm}` package--the `data-raw/` folder is specified in `.Rbuildignore`.
 -   When you run a program that is in the `data-raw/` folder, you generate a dataset that is written to the `data/` folder, which will become part of the `{pharmaversesdtm}` package.
 -   The names and sources of test datasets are specified in `R/*.R`, for the purpose of generating documentation in the `man/` folder.
 
-**Note:** The documentation process in `{pharmaversesdtm}` is automated for consistency and ease of maintenance. Metadata for each dataset, such as names, labels, descriptions, authors, and sources, is managed in a centralized JSON file (`inst/extdata/sdtms-specs.json`) and used to generate `.R` documentation files. See the [Documentation Process](#documentation-process) for details.
+**Note:** The documentation process in `{pharmaversesdtm}` is automated for consistency and ease of maintenance. Metadata for each dataset, such as names, labels, descriptions, authors, and sources, is managed in a centralized JSON file (`inst/extdata/sdtms-specs.json`) and used to generate `.R` documentation files. This streamlined approach aligns with best practices for efficient package development.
 
 ### Adding New SDTM Datasets
 
@@ -76,9 +75,3 @@ Firstly, make a GitHub issue in [`{pharmaversesdtm}`](https://github.com/pharmav
 -   Run `data-raw/create_sdtms_data.R` in order to update `NAMESPACE` and update the `.Rd` files in `man/`.
 -   Add your GitHub handle to `.github/CODEOWNERS`.
 -   Update `NEWS.md`.
-
-# Documentation Process {#documentation-process}
-
-The documentation process in `{pharmaversesdtm}` is automated for consistency and ease of maintenance. Metadata for each dataset, such as names, labels, descriptions, authors, and sources, is managed in a centralized JSON file (`inst/extdata/sdtms-specs.json`) and used to generate `.R` documentation files.
-
-This streamlined approach aligns with best practices for efficient package development.
