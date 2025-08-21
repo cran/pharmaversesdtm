@@ -1,6 +1,6 @@
-bc9010de2dae357a4ebb96ca7ad1c757 *DESCRIPTION
+6f11e061886ad7efdbeeaa9017246d58 *DESCRIPTION
 09bd792db81cb9d024e928235e1edb9f *NAMESPACE
-e8b730573520752a938d9df552fce2e7 *NEWS.md
+5531c1e88668b739b318a481b82ff406 *NEWS.md
 03db7576d6c2478f76178d5231c26008 *R/ae.R
 732059f46dc945e4abdfa0931f23e891 *R/ae_ophtha.R
 af5dbaeb809cb84599171279e4671733 *R/ce_vaccine.R
@@ -56,7 +56,7 @@ a6c8cb645887a48afe182e6ee9645958 *R/vs.R
 a54af41b46f5eecf384fad2903be61a8 *R/vs_metabolic.R
 f97bfe5b5ad7ac5d4a79fad334e07cca *R/vs_peds.R
 2ebc81217ba63ee9ab8f8e9c3957a753 *R/vs_vaccine.R
-c4f671b2230cb24373ccf090ac3414d6 *README.md
+1ce2cd1c59a6a2af81a109bd25b310f7 *README.md
 51e4a5324d7f000735ba56973897cd19 *data/ae.rda
 ff8635a573da0d241bbacf513e931004 *data/ae_ophtha.rda
 03490a7935d55eeea88d0c60243afeb7 *data/ce_vaccine.rda
@@ -110,7 +110,7 @@ d5b75ef00639168b883ec4124242c59a *data/vs.rda
 cc38f06210d564529309b52fa01652b2 *data/vs_metabolic.rda
 dc5e68ed219d62aed56f0a4c2ce125cb *data/vs_peds.rda
 c563240ba175c54a96a631dccdbc0938 *data/vs_vaccine.rda
-c23cff41f30477d4b9642c349a53c2f4 *inst/WORDLIST
+e06b9e0ce08dad5e1c476eb46a2c66cb *inst/WORDLIST
 807504887bcd97f06d0adb8f6ac1d628 *inst/extdata/sdtms-specs.json
 90483aca5c52c5fa6edf8f8ea9cca083 *man/ae.Rd
 4c43021d04885d31f50dceee8de66373 *man/ae_ophtha.Rd
@@ -126,7 +126,10 @@ b99782a6c929031e9099aeaa73f0589e *man/eg.Rd
 1f003d9a769dc93cede332cc2f6969ec *man/ex_ophtha.Rd
 7d0fd5dc4a9fa2b4406325a23b58136b *man/ex_vaccine.Rd
 1a8f5e3978c3d00360f68d65f6e89cbb *man/face_vaccine.Rd
+593b6ab53d21faaec1aa4260f56610bc *man/figures/cytel_logo.png
+616e050f2ff1b7970e7ad9a7f6fe2531 *man/figures/gsk_logo.png
 4d9053e699fd19f75ff7f05a98aab6b4 *man/figures/logo.png
+5e7804209497ef6522c99a9543c27442 *man/figures/roche_logo.png
 7bb5db74db97e5dc3f7f889e4776ac77 *man/get_terms.Rd
 708f37e9855667d2313e8b0d5b04b8bf *man/is_vaccine.Rd
 75ef22f6f02a93d61fae331ec8b81158 *man/lb.Rd
@@ -134,7 +137,7 @@ b99782a6c929031e9099aeaa73f0589e *man/eg.Rd
 e11ab9d196601f2d421a812b1738dda5 *man/mh.Rd
 d659b42603a0373284ee90523a4aced5 *man/oe_ophtha.Rd
 a957a49d480b085a1b38c051250dddd4 *man/pc.Rd
-cdb2dc2c5a1ddcee985b75e4aeb1ff73 *man/pharmaversesdtm-package.Rd
+6a3edb614c17ae98729aebe6f25c31f2 *man/pharmaversesdtm-package.Rd
 5e1bb390223162e26592afc27eab728b *man/pp.Rd
 6a07552d08e3457f3636068e8b00d370 *man/qs_metabolic.Rd
 0bfb492f90598e718fa3809cb37d35e0 *man/qs_ophtha.Rd

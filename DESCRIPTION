@@ -1,24 +1,22 @@
 Type: Package
 Package: pharmaversesdtm
 Title: SDTM Test Data for the 'Pharmaverse' Family of Packages
-Version: 1.3.0
+Version: 1.3.1
 Authors@R: c(
-    person("Edoardo", "Mancini", , "edoardo.mancini@roche.com", role = c("aut", "cre"),
-           comment = c(ORCID = "0009-0006-4899-8641")),
-    person("Fanny", "Gautier", role = "aut",
-           comment = c(ORCID = "0009-0004-3581-0131")),
-    person("Gayatri", "G", role = "aut"),
-    person("Kangjie", "Zhang", role = "aut"),
-    person("Lina", "Patil", role = "aut"),
-    person("Pooja", "Kumari", role = "aut"),
-    person("Sadchla", "Mascary", role = "aut"),
+    person("Lina", "Patil", , "lina.patil@cytel.com", role = c("aut", "cre")),
     person("Stefan", "Bundfuss", role = "aut",
            comment = c(ORCID = "0009-0005-0027-1198")),
+    person("Fanny", "Gautier", , "fanny.gautier@cytel.com", role = "aut",
+           comment = c(ORCID = "0009-0004-3581-0131")),
+    person("Edoardo", "Mancini", , "edoardo.mancini@roche.com", role = "aut",
+           comment = c(ORCID = "0009-0006-4899-8641")),
     person("Tomoyuki", "Namai", role = "aut"),
     person("Vinh", "Nguyen", role = "aut"),
     person("Vladyslav", "Shuliar", role = "aut",
            comment = c(ORCID = "0009-0008-2354-8999")),
-    person("Zelos", "Zhu", role = "aut")
+    person("Cytel Inc.", role = c("cph", "fnd")),
+    person("F. Hoffmann-La Roche AG", role = c("cph", "fnd")),
+    person("GlaxoSmithKline LLC", role = c("cph", "fnd"))
   )
 Description: A set of Study Data Tabulation Model (SDTM) datasets from the
     Clinical Data Interchange Standards Consortium (CDISC) pilot project
@@ -37,21 +35,18 @@ Language: en-US
 LazyData: true
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2025-07-04 10:28:36 UTC; mancinie
-Author: Edoardo Mancini [aut, cre] (ORCID:
-    <https://orcid.org/0009-0006-4899-8641>),
-  Fanny Gautier [aut] (ORCID: <https://orcid.org/0009-0004-3581-0131>),
-  Gayatri G [aut],
-  Kangjie Zhang [aut],
-  Lina Patil [aut],
-  Pooja Kumari [aut],
-  Sadchla Mascary [aut],
+Packaged: 2025-08-21 08:36:51 UTC; lina.patil
+Author: Lina Patil [aut, cre],
   Stefan Bundfuss [aut] (ORCID: <https://orcid.org/0009-0005-0027-1198>),
+  Fanny Gautier [aut] (ORCID: <https://orcid.org/0009-0004-3581-0131>),
+  Edoardo Mancini [aut] (ORCID: <https://orcid.org/0009-0006-4899-8641>),
   Tomoyuki Namai [aut],
   Vinh Nguyen [aut],
   Vladyslav Shuliar [aut] (ORCID:
     <https://orcid.org/0009-0008-2354-8999>),
-  Zelos Zhu [aut]
-Maintainer: Edoardo Mancini <edoardo.mancini@roche.com>
+  Cytel Inc. [cph, fnd],
+  F. Hoffmann-La Roche AG [cph, fnd],
+  GlaxoSmithKline LLC [cph, fnd]
+Maintainer: Lina Patil <lina.patil@cytel.com>
 Repository: CRAN
-Date/Publication: 2025-07-04 10:50:01 UTC
+Date/Publication: 2025-08-21 09:20:02 UTC
