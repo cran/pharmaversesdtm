@@ -7,7 +7,7 @@
 #'
 #' @name rs_onco_pcwg3
 #' @title Disease Response (PCWG3) for Oncology
-#' @keywords dataset
+#' @keywords dataset oncology
 #' @description A SDTM RS dataset for oncology studies using PCWG3 criteria intended for examples of ADaM dataset creation
 #' @docType data
 #' @format A data frame with 14 columns:
@@ -30,12 +30,11 @@
 #'
 #' @source Generated dataset
 #' @author Tomoyuki Namai
-#' @details Contains a set of 4 unique Test Short Names and Test Names: \tabular{ll}{
+#' @details Contains a set of 3 unique Test Short Names and Test Names: \tabular{ll}{
 #'   \strong{RSTESTCD} \tab \strong{RSTEST} \cr
-#'   BONERESP \tab Bone Response        \cr
-#'   OVRLRESP \tab Overall Response     \cr
-#'   SFTSRESP \tab Soft Tissue Response \cr
-#'   TMRESP   \tab Tumor Marker Response
+#'   BONERESP \tab Bone Response       \cr
+#'   OVRLRESP \tab Overall Response    \cr
+#'   SFTSRESP \tab Soft Tissue Response
 #' }
 
 "rs_onco_pcwg3"

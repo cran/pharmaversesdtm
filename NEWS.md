@@ -1,4 +1,50 @@
+# pharmaversesdtm 1.4.0
+
+## New Features
+
+- Added `VISITDY` in `pc`. (#219)
+
+- Updated QSTESTCD in `qs_ophtha` to be consistent with CDISC terminology. Also reduced the number of records for ease of use. (#172)
+
+- Added BRTHDTC in `dm` and `dm_metabolic`. (#195)
+
+- Following Neurological Disease Specific SDTM datasets have been added. (#198, #202, #203)
+
+    - `dm_neuro`
+    - `nv_neuro`
+    - `suppnv_neuro`
+    - `ag_neuro`
+    - `lb_neuro`
+
+- Updated `rs_onco_pcwg3` to correct the misclassification of `PDu` and to remove the `TMRESP` records. (#193)
+
+- Added `lb_onco_pcwg3` dataset which contains PSA measurements for PCWG criteria. (#197)
+
+- Added the Lumipulse G pTau217, β-Amyloid 1-42 Plasma and their Ratio in `lb_neuro`. (#211)
+
+## Documentation
+
+- The reference page has been updated to categorize datasets by therapeutic areas. (#204)
+
+## Various
+
+<details>
+
+<summary>Developer Notes</summary>
+
+- Updated `{lintr}` configurations to use central configurations from `{admiraldev}`. (#194)
+
+- Generated different sites for the development and released versions of the package. (#207)
+
+- Updated the pull request template to include the corrected package website name. (#223)
+
+</details>
+
 # pharmaversesdtm 1.3.1
+
+## New Features
+
+- Added Anti-Drug Antibody specific SDTM dataset `is_ada`. (#183)
 
 ## Documentation
 
