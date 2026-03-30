@@ -1,3 +1,29 @@
+# pharmaversesdtm 1.4.1
+
+## Documentation
+
+- Included CSV versions of all SDTM data under `inst/extdata` for ease of use of non R programmers. (#221)
+
+- Added Microbiology (`mb`), Susceptibility (`ms`) and Biospecimen Events (`be`) SDTM linked datasets. (#217)
+
+- Added `ARMNRS` and `ACTARMUD` to `dm`, `dm_metabolic`, `dm_neuro`, `dm_peds`, `dm_vaccine`. (#214)
+
+- Added a new vignette "Datasets Preview" to preview all datasets included in the package. (#146)
+
+## Various
+
+<details>
+
+<summary>Developer Notes</summary>
+
+- Removed the link for "Preview SDTM vignette" from `README.md` as it is causing issue for release. (#240)
+
+- Updated the `pkgdown` website and its functionalities included a dark mode, and added a new PR workflow in `.github/common.yml` triggered by "[create website]" in PR titles. (#230)
+
+- Added the `Downloads` Badge. (#229)
+
+</details>
+
 # pharmaversesdtm 1.4.0
 
 ## New Features
